@@ -1,0 +1,9 @@
+POST http://localhost:8080/wsec1e1/
+Content-Type: text/xml
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:demo="http://example.com/demo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <demo:TranslateRequest>sabado</demo:TranslateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
